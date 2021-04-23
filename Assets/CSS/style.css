@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css?family=Play&display=swap');
+
+
+
+.container-fluid {
+    width: 100%;
+}
+
+.body {
+    overflow-x: hidden;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    position: relative;
+}
+
+.heading {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+}
+
+.center-form .intro {
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+}
+
+/*---------------- Navigation -----------------*/
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 1;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    background: transparent;
+    -webkit-box-shadow: 2px 1px;
+    box-shadow: 2px 1px;
+}
+
+.navbar-nav li {
+    padding-right: .4rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #464333;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .nabar-nav .nav-link:hover {
+    color: #000080;
+}
+
+
+
+/*----------- Landing Page------------------*/
+
+.callout-container {
+    background: url('../Images/shield.jpg')no-repeat bottom right fixed;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+}
+
+.jumbotron {
+    background-color: transparent;
+    text-transform: uppercase;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    margin-top: 5rem;
+    text-shadow: 2px 1px black;
+}
+
+.jumbotron-header {
+    color: #fff;
+    font-weight: 700;
+}
+
+.slogan {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+/*------------- About Us----------------------*/
+
+#about {
+    padding: 100px 30px;
+    background-color: #f2f2f2
+}
+
+.intro {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.page-header {
+    text-align: center;
+    margin-top: -4rem;
+    margin-bottom: .5rem;
+}
+
+
+.about-img {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+
+.about-img {
+    background-image: url('../Images/NFL-100-logo.png');
+}
+
+/*------------ Jumbotron NFL------------------*/
+
+.jumbotron-nfl {
+    background: url('../Images/shield.jpg') no-repeat bottom right fixed;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    height: 60vh;
+}
+
+/*-----------------NFL Links----------------------*/
+
+#nfllinks {
+    background: #f2f2f2;
+
+}
+
+.NFL1 {
+    padding-top: 4rem;
+}
+
+.NFL3 {
+    padding: 3rem;
+    padding-bottom: 6rem;
+}
+
+.card {
+    font: bold;
+    text-align: center;
+
+}
+
+.card-deck .NFL1 {
+    margin: auto;
+}
+
+.img-top {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card-title {
+    font-family: 'Playfair Display';
+    font-weight: 600;
+}
+
+.card-text {
+    font-family: 'Source Sans Pro';
+}
+
+.card-img-top {
+    opacity: .4;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card-img-overlay {
+    opacity: 1;
+    width: 100%;
+}
+
+
+/*-------------------- NFL 100 Years Advert Video --------------------*/
+ #Years {
+    background: #f2f2f2;
+
+}
+.nfl5{
+    padding-top: 6rem;
+
+}
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 10px;
+    height: 80px;
+    width: 30px;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.embed-responsive-16by9::before {
+    padding-top: 30px;
+}
+
+
+
+/*------------- Jumbotron Workshop ----------------*/
+
+.jumbotron-workshop {
+    background: url('..Images/shield.jpg') no-repeat bottom right fixed;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    height: 40vh;
+}
+
+/*original code credit: https://codepen.io/sdthornton/pen/wBZdXq from google search */
+
+.gallery-thumbnail {
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    -o-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    border-radius: 5px;
+}
+
+
+/* original code credit: https://codepen.io/sdthornton/pen/wBZdXq from google search */
+
+.gallery-thumbnail:hover {
+    -webkit-box-shadow: 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+
+
+/*------------ Contact--------------*/
+
+#contact {
+    background-color: #f2f2f2;
+}
+
+
+.contact-us {
+    padding-bottom: 2rem;
+}
+
+.contact-heading {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.center-form {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.fullname,
+.e-mail,
+.project {
+    padding-bottom: 10px;
+}
+
+/*-------------- Footer --------------*/
+
+.list-inline {
+    padding-top: 10px;
+}
+
+.container-foot {
+    background-color: #072F5F;
+}
+
+.h5 {
+    text-align: center;
+}
+
+/*------- Code from Rosie.cv module --------*/
+
+.social-links li a i {
+    width: 50px;
+    height: 50px;
+    padding: 20px 0;
+    border-radius: 50%;
+    line-height: 10px;
+    font-size: 25px;
+    text-align: center;
+    color: #072F5F;
+    background: #f2f2f2;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #59522c;
+}
+
+
+
+/*-----------------------Media queries--------------------------*/
+
+@media (max-width: 768px) {
+    .card-deck {
+        display: block;
+    }
+
+    .NFL1 {
+        padding: 0;
+    }
+
+    .NFL2 {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    .container-NFL1 {
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-deck .card {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex: 1 0 0%;
+        -webkit-box-flex: 1;
+        flex: 1 0 0%;
+        -ms-flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        height: 250px;
+        margin-bottom: 15px;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar {
+        padding-top: 4px;
+        padding-bottom: 5px;
+    }
+}
+
+.container-nfl {
+    background: #f2f2f2;
+}
